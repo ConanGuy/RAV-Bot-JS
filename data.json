@@ -1,0 +1,44 @@
+{    
+    "agents": {
+        "Astra": "Controller",
+        "Jett":  "Duelist",
+        "Raze":  "Duelist",
+        "Reyna":  "Duelist",
+        "Brimstone":  "Controller",
+        "Breach":  "Initiator",
+        "Phoenix":  "Duelist",
+        "Sova":  "Initiator",
+        "Skye":  "Initiator",
+        "Kayo":  "Initiator",
+        "Cypher":  "Sentinel",
+        "Omen":  "Controller",
+        "Yoru":  "Duelist",
+        "Viper":  "Controller",
+        "Sage":  "Sentinel",
+        "Killjoy":  "Sentinel"
+    },
+
+    "gamemodes": ["Unrated", "Competitive", "Spike rush", "Snowball", "Deathmatch"],
+
+    "maps": ["Ascent", "Bind", "Breeze", "Icebox", "Haven", "Split", "Fracture"],
+
+    "weapons": {
+        "Classic": "Sidearm", 
+        "Shorty": "Sidearm", 
+        "Frenzy": "Sidearm", 
+        "Ghost": "Sidearm", 
+        "Sheriff": "Sidearm", 
+        "Stinger": "SMG", 
+        "Spectre": "SMG", 
+        "Bucky": "Shotgun", 
+        "Judge": "Shotgun", 
+        "Bulldog": "Rifle", 
+        "Guardian": "Rifle", 
+        "Phantom": "Rifle", 
+        "Vandal": "Rifle", 
+        "Operator": "Sniper", 
+        "Marshal": "Sniper", 
+        "Ares": "Heavy", 
+        "Odin": "Heavy"
+    }
+}
