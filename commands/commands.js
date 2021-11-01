@@ -2,7 +2,9 @@ const utils = require("../utils.js");
 
 const help = require("./help.js")
 const pick_agents = require("./pick/pick_agents.js")
+const pick_channel_agents = require("./pick/pick_channel_agents.js")
 const pick_weapons = require("./pick/pick_weapons.js")
+const pick_channel_weapons = require("./pick/pick_channel_weapons.js")
 const pick_maps = require("./pick/pick_maps.js")
 const pick_gamemodes = require("./pick/pick_gamemodes.js")
 
@@ -13,8 +15,10 @@ const commands = {
     help: help, h: help,
 
     pick_agents: pick_agents, pa: pick_agents,
+    pick_channel_agents: pick_channel_agents, pca: pick_channel_agents,
 
     pick_weapons: pick_weapons, pw: pick_weapons,
+    pick_channel_weapons: pick_channel_weapons, pcw: pick_channel_weapons,
 
     pick_maps: pick_maps, pm: pick_maps,
 

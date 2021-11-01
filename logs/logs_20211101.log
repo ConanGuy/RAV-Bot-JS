@@ -1,0 +1,60 @@
+[Logs @Mon, 01 Nov 2021 18:43:21 GMT] Random Valo Agents has connected to Discord
+
+[Voum Voum la voitue @Mon, 01 Nov 2021 18:46:02 GMT] ConanGuy sent rav.pca
+[Voum Voum la voitue @Mon, 01 Nov 2021 18:46:02 GMT] Returned {"content":"You are not in a voice channel"}
+
+[Voum Voum la voitue @Mon, 01 Nov 2021 18:46:06 GMT] ConanGuy sent rav.pca
+[Voum Voum la voitue @Mon, 01 Nov 2021 18:46:06 GMT] Returned {"content":"You are not in a voice channel"}
+
+[Voum Voum la voitue @Mon, 01 Nov 2021 18:46:12 GMT] ConanGuy sent rav.pca
+[Voum Voum la voitue @Mon, 01 Nov 2021 18:46:12 GMT] Returned {"content":"You are not in a voice channel"}
+
+node:internal/fs/utils:344
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open 'data.json'
+[90m    at Object.openSync (node:fs:585:3)[39m
+[90m    at Object.readFileSync (node:fs:453:35)[39m
+    at Object.<anonymous> (/home/conan/NodeJS/RAV-Bot-JS/commands/pick/pick_agents.js:4:31)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1101:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[90m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+    at Object.<anonymous> (/home/conan/NodeJS/RAV-Bot-JS/commands/commands.js:4:21) {
+  errno: [33m-2[39m,
+  syscall: [32m'open'[39m,
+  code: [32m'ENOENT'[39m,
+  path: [32m'data.json'[39m
+}
+[Logs @Mon, 01 Nov 2021 18:55:00 GMT] Random Valo Agents has connected to Discord
+
+[Voum Voum la voitue @Mon, 01 Nov 2021 18:55:52 GMT] ConanGuy sent rav.pca
+[Voum Voum la voitue @Mon, 01 Nov 2021 18:55:52 GMT] Returned {"content":"You are not in a voice channel"}
+
+[Ice-T Gaming @Mon, 01 Nov 2021 18:56:31 GMT] ConanGuy sent rav.pca
+[Ice-T Gaming @Mon, 01 Nov 2021 18:56:31 GMT] Returned {"content":"<@155297375609552896>: Killjoy\n<@241190800736649216>: Astra\n<@351822142989402123>: Yoru"}
+
+[Ice-T Gaming @Mon, 01 Nov 2021 18:56:41 GMT] ConanGuy sent rav.pca
+[Ice-T Gaming @Mon, 01 Nov 2021 18:56:41 GMT] Returned {"content":"<@155297375609552896>: Sova\n<@241190800736649216>: Viper\n<@351822142989402123>: Cypher"}
+
+[Logs @Mon, 01 Nov 2021 19:20:51 GMT] Random Valo Agents has connected to Discord
+
+[Logs @Mon, 01 Nov 2021 19:21:01 GMT] Random Valo Agents has connected to Discord
+
+[Ice-T Gaming @Mon, 01 Nov 2021 19:21:07 GMT] ConanGuy sent rav.pca
+[Ice-T Gaming @Mon, 01 Nov 2021 19:21:07 GMT] Returned {"content":"<@155297375609552896>: Phoenix\n<@241190800736649216>: Reyna\n<@244461487031058433>: Raze\n<@351822142989402123>: Sage"}
+
+[Ice-T Gaming @Mon, 01 Nov 2021 19:21:11 GMT] ConanGuy sent rav.pca
+[Ice-T Gaming @Mon, 01 Nov 2021 19:21:11 GMT] Returned {"content":"<@351822142989402123>: Astra"}
+
+[Ice-T Gaming @Mon, 01 Nov 2021 19:21:17 GMT] ConanGuy sent rav.pca
+[Ice-T Gaming @Mon, 01 Nov 2021 19:21:17 GMT] Returned {"content":"You are not in a voice channel"}
+
+[Ice-T Gaming @Mon, 01 Nov 2021 19:28:54 GMT] ConanGuy sent rav.pa
+[Ice-T Gaming @Mon, 01 Nov 2021 19:28:54 GMT] Returned {"content":"Phoenix"}
+
+[Logs @Mon, 01 Nov 2021 19:29:40 GMT] Random Valo Agents has connected to Discord
+

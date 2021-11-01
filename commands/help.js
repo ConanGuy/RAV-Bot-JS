@@ -10,9 +10,19 @@ const utils = require("../utils.js");
         },
 */
 const helpCommands = {
+    "pick_channel_agents": {
+        "Aliases": ["pick_channel_agents", "pca"],
+        "Description": ["Pick n random agents for each user in your voice channel"],
+        "Options": ["n AMOUNT=1", "-f FILTERS"]
+    },
     "pick_agents": {
         "Aliases": ["pick_agents", "pa"],
         "Description": ["Pick n random agents"],
+        "Options": ["n AMOUNT=1", "-f FILTERS"]
+    },
+    "pick_channel_weapons": {
+        "Aliases": ["pick_channel_weapons", "pcw"],
+        "Description": ["Pick n random weapons for each user in your voice channel"],
         "Options": ["n AMOUNT=1", "-f FILTERS"]
     },
     "pick_weapons": {
