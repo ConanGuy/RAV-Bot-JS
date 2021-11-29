@@ -10,7 +10,7 @@ const commandHandler = require("./commands/commands")
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-const TOKEN = process.env.TOKEN
+const TOKEN = process.env.TOKEN_RAV
 
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_VOICE_STATES", "GUILD_MESSAGES", "DIRECT_MESSAGES"], partials: ["CHANNEL"] })
 client.login(TOKEN)
